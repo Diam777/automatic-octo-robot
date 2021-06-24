@@ -117,7 +117,26 @@ height: 230px;
         margin-top: 30px;
        margin-left: 170px ;
        margin-right: 60px;
+       width: 30px;
+        display: flex;
+        align-items: flex-end;
+        gap: 10px;
+        margin-bottom: 25px;
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 50%;
     }
 
-  
+    button{
+        border-color: black;
+        border-style: solid;
+        border-radius: 30px;
+        border-width: 0.1em;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: hsl(257, 40%, 49%);
+        box-shadow: 1px 1px 15px hsl(257, 39%, 35%);;
+    }
+
 }
